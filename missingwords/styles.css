@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(229, 188, 112);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://assets.wfcdn.com/im/61589247/compr-r85/1070/107096015/elouise-peel-stick-floral-roll.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    position: absolute;
+    background: #9c9292;
+    z-index: 1000000;
+    top: 29px;
+    left: 0;
+    width: max-content;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.text {
+    font-size: 16px;
+    text-align: center;
+    padding: 28px;
+    background-color: white;
+    border: 2px solid #0a153d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 28px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.word_container {
+    position: relative;
+}
+
+.missing-word {
+    background-color: rgb(223, 131, 203);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.word_container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.word_container ul li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.word_container ul li:hover {
+    background-color: #871c1c;
+}
+
+.word_container ul li.selected {
+    background-color: #2b5484;
+    color: #b23a3a;
+}
+
+#generateButton,
+#copyButton {
+    background-color: #007bff;
+    color: #350606;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(56, 19, 19, 0.2);
+
+}
+
+#generateButton:hover {
+    background-color: #0f529a;
+}
+#copyButton:hover{
+        background-color: #0f529a;
+}
+
+#startButton {
+    border-radius: 30px;
+    border: 1px solid #3a2c2c;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    width: 150px;
+    height: 50px;
+    
+
+}
